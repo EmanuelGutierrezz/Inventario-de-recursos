@@ -1,0 +1,35 @@
+/* <!-- importar   fuente poppins  --> */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* <!-- Variables definidas  --> */
+ :root{
+    --fuentePrincipal: 'Poppins', sans-serif;
+    --verdeoscuro: #53a08e;
+    --verde: #7ebea3;
+    --verdeclaro:#a9cba6 ; 
+    -amarillo: #e0dba4;
+    --amarilloclaro:#f7f0ba;
+    --blanco:#ffffff;
+ }
+
+
+/* Fuente */
+p {
+font-family: var(--fuentePrincipal);
+color:var(--blanco) ;
+font-size: 1rem;
+}
+
+
+h1 {
+    font-family: var(--fuentePrincipal);
+    color:var(--blanco) ;
+    font-size: 1.7rem;
+}
+
+
+h2 {
+    font-family: var(--fuentePrincipal);
+    color:var(--blanco) ;
+    font-size: 1.5rem;
+}
